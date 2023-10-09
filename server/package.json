@@ -1,0 +1,30 @@
+{
+  "name": "customer-feedback",
+  "version": "1.0.0",
+  "description": "Server for the customer feedback",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushsinha24/customer-feedback.git"
+  },
+  "keywords": [],
+  "author": "Piyush Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushsinha24/customer-feedback/issues"
+  },
+  "homepage": "https://github.com/piyushsinha24/customer-feedback#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-sanitizer": "^1.0.6",
+    "mongoose": "^7.6.0",
+    "nodemon": "^3.0.1"
+  }
+}
