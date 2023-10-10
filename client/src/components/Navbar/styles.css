@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    margin: 8px;
+    padding: 8px;
+    box-shadow: 8px 4px indigo;
+    border-radius: 4px;
+}
+
+.nav-header {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.nav-buttons-group {
+    display: flex;
+}
+
+.nav-button {
+    background-color: indigo;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    border-radius: 4px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}

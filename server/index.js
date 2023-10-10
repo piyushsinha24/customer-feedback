@@ -7,10 +7,12 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import dotenv from "dotenv";
 import verifyToken from "./middlewares/authorization.js";
+import cors from "cors";
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors());
 dotenv.config();
 
 const hostname = "127.0.0.1";
