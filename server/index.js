@@ -45,7 +45,7 @@ app.post("/feedback/save", async (req, res) => {
         .status(200)
         .send({
           status: "success",
-          message: "feedback submitted succesffuly!",
+          message: "feedback submitted succesfully!",
         });
   } catch (e) {
     res.status(500).send(e);
