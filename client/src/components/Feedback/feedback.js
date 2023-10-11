@@ -51,7 +51,7 @@ function Feedback() {
 
   return (
     <div className="feedback-container">
-      <Navbar showAdmin={true} />
+      <Navbar showDashboard={true} />
       <form className="feedback-form" onSubmit={onFormSubmit}>
         <p className="feedback-title">We'd love some feedback!</p>
         <label htmlFor="name">Name</label>
